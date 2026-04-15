@@ -8,4 +8,10 @@ export default defineConfig({
 
   cleanUrls: true,
   lastUpdated: true,
+
+  themeConfig: {
+    search: {
+      provider: "local",
+    },
+  },
 });
