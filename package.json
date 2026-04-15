@@ -1,0 +1,35 @@
+{
+  "name": "project-vrcz-website",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@eslint/json": "^1.2.0",
+    "@eslint/markdown": "^8.0.1",
+    "@types/bun": "latest",
+    "eslint": "^10.2.0",
+    "eslint-plugin-vue": "^10.8.0",
+    "globals": "^17.5.0",
+    "jiti": "^2.6.1",
+    "markdownlint-cli2": "^0.22.0",
+    "prettier": "3.8.3",
+    "typescript-eslint": "^8.58.2",
+    "vitepress": "^2.0.0-alpha.17",
+    "zhlint": "^0.8.2"
+  },
+  "scripts": {
+    "dev": "vitepress dev src",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "docs:lint": "bun run --sequential docs:zhlint docs:markdownlint",
+    "docs:lint:fix": "bun run --sequential docs:zhlint:fix docs:markdownlint:fix",
+    "docs:zhlint": "zhlint --dir src/cmn/ 'src/cmn/**/*.md'",
+    "docs:zhlint:fix": "bun docs:zhlint --fix",
+    "docs:markdownlint": "markdownlint-cli2 'src/**/*.md'",
+    "docs:markdownlint:fix": "bun docs:markdownlint --fix"
+  }
+}

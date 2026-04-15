@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig",
+    "kkopite.zhlint",
+    "davidanson.vscode-markdownlint"
+  ]
+}
