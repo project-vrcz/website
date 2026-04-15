@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  zhlint-check:
+  lint-check:
     runs-on: ubuntu-latest
 
     steps:
