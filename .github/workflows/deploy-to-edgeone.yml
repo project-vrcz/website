@@ -12,8 +12,9 @@ jobs:
   build:
     uses: ./.github/workflows/build.yml
   deploy:
+    needs: [build]
     runs-on: ubuntu-latest
-    
+
     env:
       artifact_path: ${{ github.workspace }}/website-artifact
 
