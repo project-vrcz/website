@@ -1,4 +1,4 @@
-name: ZHLint Check
+name: Markdownlint Check
 
 on:
   push:

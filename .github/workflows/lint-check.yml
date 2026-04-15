@@ -1,4 +1,4 @@
-name: ZHLint Check
+name: Lint Check
 
 on:
   push:
