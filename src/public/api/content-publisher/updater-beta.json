@@ -1,6 +1,6 @@
 {
   "version": "2.9.0-beta.1",
-  "notes": "### Changed\\n\\n- Rework Login with Cookies input fields. [`#275`](https://github.com/project-vrcz/content-publisher/pull/275)\\n- Update Use RGB Cycling background App Bar settings text for chinese. [`#276`](https://github.com/project-vrcz/content-publisher/pull/276)",
+  "notes": "### Changed\n\n- Rework Login with Cookies input fields. [`#275`](https://github.com/project-vrcz/content-publisher/pull/275)\n- Update Use RGB Cycling background App Bar settings text for chinese. [`#276`](https://github.com/project-vrcz/content-publisher/pull/276)",
   "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.0-beta.1",
   "releaseDate": "2026-04-16T13:55:15Z",
   "platforms": {
