@@ -1,8 +1,8 @@
 {
   "version": "2.9.0-beta.2",
-  "notes": "### Added\n\n- Software upgrade. [`#287`](https://github.com/project-vrcz/content-publisher/pull/287)\n  - Send in-app notification when app update available.\n  - Show changes in app.\n  - Skip specify version.\n  - Update check run on start or each 30mins in background. (optional)\n  - Download update in background. (optional)\n\n### Changed\n\n- Rework Login with Cookies input fields. [`#275`](https://github.com/project-vrcz/content-publisher/pull/275)\n- Update Use RGB Cycling background App Bar settings text for chinese. [`#276`](https://github.com/project-vrcz/content-publisher/pull/276)\n\n### Fixed\n\n- Cannot exit app when dialog show. [`#287`](https://github.com/project-vrcz/content-publisher/pull/287)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.8.2",
-  "releaseDate": "2026-04-19T17:24:23Z",
+  "notes": "### Added\n\n- Software upgrade. [\u0060#287\u0060](https://github.com/project-vrcz/content-publisher/pull/287)\n  - Send in-app notification when app update available.\n  - Show changes in app.\n  - Skip specify version.\n  - Update check run on start or each 30mins in background. (optional)\n  - Download update in background. (optional)\n\n### Changed\n\n- Rework Login with Cookies input fields. [\u0060#275\u0060](https://github.com/project-vrcz/content-publisher/pull/275)\n- Update Use RGB Cycling background App Bar settings text for chinese. [\u0060#276\u0060](https://github.com/project-vrcz/content-publisher/pull/276)\n\n### Fixed\n\n- Cannot exit app when dialog show. [\u0060#287\u0060](https://github.com/project-vrcz/content-publisher/pull/287)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.0-beta.2",
+  "releaseDate": "2026-04-19T17:24:23+00:00",
   "platforms": {
     "win-x64": {
       "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.0-beta.2/vrchat-content-publisher-app-win-x64-installer.zip",
