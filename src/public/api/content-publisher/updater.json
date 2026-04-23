@@ -1,12 +1,12 @@
 {
-  "version": "2.9.0-beta.2",
-  "notes": "### Added\n\n- Software upgrade. [`#287`](https://github.com/project-vrcz/content-publisher/pull/287)\n  - Send in-app notification when app update available.\n  - Show changes in app.\n  - Skip specify version.\n  - Update check run on start or each 30mins in background. (optional)\n  - Download update in background. (optional)\n\n### Changed\n\n- Rework Login with Cookies input fields. [`#275`](https://github.com/project-vrcz/content-publisher/pull/275)\n- Update Use RGB Cycling background App Bar settings text for chinese. [`#276`](https://github.com/project-vrcz/content-publisher/pull/276)\n\n### Fixed\n\n- Cannot exit app when dialog show. [`#287`](https://github.com/project-vrcz/content-publisher/pull/287)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.8.2",
-  "releaseDate": "2026-04-19T17:24:23Z",
+  "version": "2.9.0-beta.3",
+  "notes": "### Added\n\n- Software upgrade. [\u0060#287\u0060](https://github.com/project-vrcz/content-publisher/pull/287)\n  - Send in-app notification when app update available.\n  - Show changes in app.\n  - Skip specify version.\n  - Update check run on start or each 30mins in background. (optional)\n  - Download update in background. (optional)\n- Toggle pinned or borderless window in tray menu. [\u0060#291\u0060](https://github.com/project-vrcz/content-publisher/pull/291)\n- Add loading text to bootstrap screen.\n- Send desktop notification on new pairing request [\u0060#296\u0060](https://github.com/project-vrcz/content-publisher/issues/298)\n\n### Changed\n\n- Rework Login with Cookies input fields. [\u0060#275\u0060](https://github.com/project-vrcz/content-publisher/pull/275)\n- Update Use RGB Cycling background App Bar settings text for chinese. [\u0060#276\u0060](https://github.com/project-vrcz/content-publisher/pull/276)\n- Adjust margin between main window and screen bounds. [\u0060#301\u0060](https://github.com/project-vrcz/content-publisher/pull/301)\n\n### Fixed\n\n- Cannot exit app when dialog show. [\u0060#287\u0060](https://github.com/project-vrcz/content-publisher/pull/287)\n- Abnormal shutdown during web request may corrupted session storage in some case. [\u0060#292\u0060](https://github.com/project-vrcz/content-publisher/pull/292)\n- Click tray icon only make window focused instead of bring window to front when window minimized. [\u0060#295\u0060](https://github.com/project-vrcz/content-publisher/pull/295)\n- Enable borderless window won\u0027t reset window state to normal from maximized or minimized. [\u0060#295\u0060](https://github.com/project-vrcz/content-publisher/pull/295)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.0-beta.3",
+  "releaseDate": "2026-04-23T09:46:43+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.0-beta.2/vrchat-content-publisher-app-win-x64-installer.zip",
-      "sha256": "c563d56cc7f3aa460be915fd2c108bdaa5ca58d6578e98e884f0a63ab89c383d"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.0-beta.3/vrchat-content-publisher-app-win-x64-installer.zip",
+      "sha256": "beafe9ee7e19e6ece9fcdb0e34ea833f64c4a7ace0fec6a5c676f7c1199cb7af"
     }
   }
 }
