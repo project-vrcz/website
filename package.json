@@ -30,6 +30,7 @@
     "docs:zhlint": "zhlint --dir src/cmn/ 'src/cmn/**/*.md'",
     "docs:zhlint:fix": "bun docs:zhlint --fix",
     "docs:markdownlint": "markdownlint-cli2 'src/**/*.md'",
-    "docs:markdownlint:fix": "bun docs:markdownlint --fix"
+    "docs:markdownlint:fix": "bun docs:markdownlint --fix",
+    "check": "bun run --sequential lint format:check docs:lint"
   }
 }
