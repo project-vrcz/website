@@ -10,8 +10,8 @@ hero:
       text: 项目
       link: projects
     - theme: alt
-      text: 加入 KOOK 服务器
-      link: https://kook.vip/2xtPQS
+      text: 加入 QQ 群
+      link: https://qm.qq.com/q/lwSCes9Z7y
     - theme: alt
       text: Github
       link: https://github.com/project-vrcz

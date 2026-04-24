@@ -10,8 +10,8 @@ hero:
       text: Projects
       link: projects
     - theme: alt
-      text: Join KOOK Server
-      link: https://kook.vip/2xtPQS
+      text: Join QQ Group
+      link: https://qm.qq.com/q/lwSCes9Z7y
     - theme: alt
       text: Github
       link: https://github.com/project-vrcz
