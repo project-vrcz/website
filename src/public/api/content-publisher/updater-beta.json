@@ -5,8 +5,8 @@
   "releaseDate": "2026-04-29T14:22:09+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.0/vrchat-content-publisher-app-crash-handler-win-x64-pdb.zip",
-      "sha256": "9da44e264df306787b3124c862cfcc6fda37673518b761ce7721dafccabd1129"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.0/vrchat-content-publisher-app-win-x64-installer.zip",
+      "sha256": "c9a08c53cf5e1af06d41c6b709061f5da181d97d93cbbfa3b1b5464ed002f13a"
     }
   }
 }
