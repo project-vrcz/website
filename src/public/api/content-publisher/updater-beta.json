@@ -1,12 +1,12 @@
 {
-  "version": "2.9.1",
-  "notes": "### Added\n\n- Show alert for platform with no desktop notification support. [\u0060#325\u0060](https://github.com/project-vrcz/content-publisher/pull/325)\n\n### Fixed\n\n- Failure to initialize notification service will cause the app to crash. [\u0060#325\u0060](https://github.com/project-vrcz/content-publisher/pull/325)\n- Multi-thread download accidentally use single connection when download update. [\u0060#326\u0060](https://github.com/project-vrcz/content-publisher/pull/326)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.1",
-  "releaseDate": "2026-05-04T15:23:11+00:00",
+  "version": "2.9.2",
+  "notes": "### Changed\r\n\r\n- Disable download and install update feature for Linux and portable version. [\u0060#334\u0060](https://github.com/project-vrcz/content-publisher/pull/334)\r\n\r\n### Fixed\r\n\r\n- All file uploading task took over 30s will be forced abort. [\u0060#332\u0060](https://github.com/project-vrcz/content-publisher/pull/332)\r\n- App crash on startup when download update background enabled or click Download Update on Linux. [\u0060#334\u0060](https://github.com/project-vrcz/content-publisher/pull/334)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.2",
+  "releaseDate": "2026-05-07T15:48:53+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.1/vrchat-content-publisher-app-win-x64-installer.zip",
-      "sha256": "4937c211770fa8210a935615b41e12818d23ed1e99b5ce18da759f63f7cfdbb3"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.2/installer-win-x64.zip",
+      "sha256": "0ad6532db161d5b457a616a8333806f79bf8fa896781f933a4862492eb0780a8"
     }
   }
 }
