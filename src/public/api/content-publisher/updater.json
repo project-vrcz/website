@@ -1,12 +1,12 @@
 {
-  "version": "2.9.2",
-  "notes": "### Changed\r\n\r\n- Disable download and install update feature for Linux and portable version. [\u0060#334\u0060](https://github.com/project-vrcz/content-publisher/pull/334)\r\n\r\n### Fixed\r\n\r\n- All file uploading task took over 30s will be forced abort. [\u0060#332\u0060](https://github.com/project-vrcz/content-publisher/pull/332)\r\n- App crash on startup when download update background enabled or click Download Update on Linux. [\u0060#334\u0060](https://github.com/project-vrcz/content-publisher/pull/334)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.2",
-  "releaseDate": "2026-05-07T15:48:53+00:00",
+  "version": "2.9.3",
+  "notes": "### Changed\n\n- No notification will sent if first 64 bits prefix remain same after IPv6 address changed. [\u0060#344\u0060](https://github.com/project-vrcz/content-publisher/pull/344)\n  - The change will still print to log.\n\n### Added\n\n- Toggle for public ip checker. [\u0060#342\u0060](https://github.com/project-vrcz/content-publisher/pull/342).\n- Allow cancel update and delete downloaded file after update downloaded. [\u0060#343\u0060](https://github.com/project-vrcz/content-publisher/pull/343)\n\n### Fixed\n\n- App will try downgrade itself if remote app version lower than local app version. [\u0060#339\u0060](https://github.com/project-vrcz/content-publisher/pull/339)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.3",
+  "releaseDate": "2026-05-08T19:03:52+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.2/installer-win-x64.zip",
-      "sha256": "0ad6532db161d5b457a616a8333806f79bf8fa896781f933a4862492eb0780a8"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.3/installer-win-x64.zip",
+      "sha256": "4f60b8b87f4fa76257949acb9721451a3fb5df2f630ebdf00ff4d284feff3cd7"
     }
   }
 }
