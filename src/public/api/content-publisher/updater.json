@@ -1,12 +1,12 @@
 {
-  "version": "2.9.4-beta.1",
-  "notes": "### Added\n\n- Show upload speed and percentage for file uploading. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n\n### Fixed\n\n- Upload progress will become unreliable if request retry occurred. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- App crash randomly in some case. (Due to dispose Bitmap in wrong time). [\u0060#349\u0060](https://github.com/project-vrcz/content-publisher/pull/349)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.4-beta.1",
-  "releaseDate": "2026-05-12T18:50:35+00:00",
+  "version": "2.9.3",
+  "notes": "### Changed\n\n- No notification will sent if first 64 bits prefix remain same after IPv6 address changed. [\u0060#344\u0060](https://github.com/project-vrcz/content-publisher/pull/344)\n  - The change will still print to log.\n\n### Added\n\n- Toggle for public ip checker. [\u0060#342\u0060](https://github.com/project-vrcz/content-publisher/pull/342).\n- Allow cancel update and delete downloaded file after update downloaded. [\u0060#343\u0060](https://github.com/project-vrcz/content-publisher/pull/343)\n\n### Fixed\n\n- App will try downgrade itself if remote app version lower than local app version. [\u0060#339\u0060](https://github.com/project-vrcz/content-publisher/pull/339)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.3",
+  "releaseDate": "2026-05-08T19:03:52+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.4-beta.1/installer-win-x64.zip",
-      "sha256": "68cc13d19484963a39283906cc0d153256486162fb0da45b0b50e21145f4adc1"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.3/installer-win-x64.zip",
+      "sha256": "4f60b8b87f4fa76257949acb9721451a3fb5df2f630ebdf00ff4d284feff3cd7"
     }
   }
 }
