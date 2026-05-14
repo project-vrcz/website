@@ -1,12 +1,12 @@
 {
-  "version": "2.9.4-beta.1",
-  "notes": "### Added\n\n- Show upload speed and percentage for file uploading. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n\n### Fixed\n\n- Upload progress will become unreliable if request retry occurred. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- App crash randomly in some case. (Due to dispose Bitmap in wrong time). [\u0060#349\u0060](https://github.com/project-vrcz/content-publisher/pull/349)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.4-beta.1",
-  "releaseDate": "2026-05-12T18:50:35+00:00",
+  "version": "2.9.4",
+  "notes": "### Changed\n\n- Onboarding will skip account login if any account exist. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n- Rework About page. [\u0060#355\u0060](https://github.com/project-vrcz/content-publisher/pull/355)\n\n### Added\n\n- Show upload speed and percentage for file uploading. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- Restart onboarding from settings page. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n- Open settings page from onboarding welcome page. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n\n### Fixed\n\n- Upload progress will become unreliable if request retry occurred. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- App crash randomly in some case. (Due to dispose Bitmap in wrong time). [\u0060#349\u0060](https://github.com/project-vrcz/content-publisher/pull/349)\n- App icon in onboarding page use wrong color in light mode. [\u0060#357\u0060](https://github.com/project-vrcz/content-publisher/pull/357)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.4",
+  "releaseDate": "2026-05-14T18:48:59+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.4-beta.1/installer-win-x64.zip",
-      "sha256": "68cc13d19484963a39283906cc0d153256486162fb0da45b0b50e21145f4adc1"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.4/installer-win-x64.zip",
+      "sha256": "92121424e29b0917e6e8842ffc57fc0a1e6270195fff19f20db17cdf8aba5d3b"
     }
   }
 }
