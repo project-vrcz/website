@@ -1,12 +1,12 @@
 {
-  "version": "2.9.4",
-  "notes": "### Changed\n\n- Onboarding will skip account login if any account exist. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n- Rework About page. [\u0060#355\u0060](https://github.com/project-vrcz/content-publisher/pull/355)\n\n### Added\n\n- Show upload speed and percentage for file uploading. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- Restart onboarding from settings page. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n- Open settings page from onboarding welcome page. [\u0060#352\u0060](https://github.com/project-vrcz/content-publisher/pull/352)\n\n### Fixed\n\n- Upload progress will become unreliable if request retry occurred. [\u0060#347\u0060](https://github.com/project-vrcz/content-publisher/pull/347)\n- App crash randomly in some case. (Due to dispose Bitmap in wrong time). [\u0060#349\u0060](https://github.com/project-vrcz/content-publisher/pull/349)\n- App icon in onboarding page use wrong color in light mode. [\u0060#357\u0060](https://github.com/project-vrcz/content-publisher/pull/357)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.9.4",
-  "releaseDate": "2026-05-14T18:48:59+00:00",
+  "version": "2.10.0-beta.1",
+  "notes": "### Changed\n\n- All file related to publish task (raw bundle, compressed bundle, etc) are storage in\u0060%LOCALAPPDATA%\\vrchat-content-manager-81b7bca3\\rpc-files\u0060. [\u0060#365\u0060](https://github.com/project-vrcz/content-publisher/pull/365)\n\n### Added\n\n- Tasks can be restore after crash or restarted. [\u0060#367\u0060](https://github.com/project-vrcz/content-publisher/pull/367)\n  - Progress of all restored tasks will end with \u0022Waiting for start\u0022.\n  - You need to manually start restored tasks.\n  - You can chose to retry or remove all restored (Pending) tasks.",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.0-beta.1",
+  "releaseDate": "2026-05-16T18:53:14+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.9.4/installer-win-x64.zip",
-      "sha256": "92121424e29b0917e6e8842ffc57fc0a1e6270195fff19f20db17cdf8aba5d3b"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.0-beta.1/installer-win-x64.zip",
+      "sha256": "5da3f42d927b779ee3b9f40fb89783cc32261e6f8741e84c4fd834c16006de90"
     }
   }
 }
