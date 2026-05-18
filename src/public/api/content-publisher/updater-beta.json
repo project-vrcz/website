@@ -1,12 +1,12 @@
 {
-  "version": "2.10.0-beta.1",
-  "notes": "### Changed\n\n- All file related to publish task (raw bundle, compressed bundle, etc) are storage in\u0060%LOCALAPPDATA%\\vrchat-content-manager-81b7bca3\\rpc-files\u0060. [\u0060#365\u0060](https://github.com/project-vrcz/content-publisher/pull/365)\n\n### Added\n\n- Tasks can be restore after crash or restarted. [\u0060#367\u0060](https://github.com/project-vrcz/content-publisher/pull/367)\n  - Progress of all restored tasks will end with \u0022Waiting for start\u0022.\n  - You need to manually start restored tasks.\n  - You can chose to retry or remove all restored (Pending) tasks.",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.0-beta.1",
-  "releaseDate": "2026-05-16T18:53:14+00:00",
+  "version": "2.10.0-beta.2",
+  "notes": "### Changed\n\n- All file related to publish task (raw bundle, compressed bundle, etc) are storage in\u0060%LOCALAPPDATA%\\vrchat-content-manager-81b7bca3\\rpc-files\u0060. [\u0060#365\u0060](https://github.com/project-vrcz/content-publisher/pull/365)\n- Extend period of background update check to a hour. [\u0060#371\u0060](https://github.com/project-vrcz/content-publisher/pull/371)\n\n### Added\n\n- Tasks can be restore after crash or restarted. [\u0060#367\u0060](https://github.com/project-vrcz/content-publisher/pull/367)\n  - Progress of all restored tasks will end with \u0022Waiting for start\u0022.\n  - You need to manually start restored tasks.\n  - You can chose to retry or remove all restored (Pending) tasks.\n  - Options to remove task from database after it completed. [\u0060#373\u0060](https://github.com/project-vrcz/content-publisher/pull/373)\n\n### Changes from [2.10.0-beta.1]\n\n#### Fixed\n\n- App crash after click download update. [\u0060#375\u0060](https://github.com/project-vrcz/content-publisher/pull/375)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.0-beta.2",
+  "releaseDate": "2026-05-18T18:44:10+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.0-beta.1/installer-win-x64.zip",
-      "sha256": "5da3f42d927b779ee3b9f40fb89783cc32261e6f8741e84c4fd834c16006de90"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.0-beta.2/installer-win-x64.zip",
+      "sha256": "3828d590181e67e7691b4d10e39b5efaf3ad41a45c1a45a90be39f6d0c1ba1c0"
     }
   }
 }
