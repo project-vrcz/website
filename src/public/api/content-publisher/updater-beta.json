@@ -1,12 +1,12 @@
 {
-  "version": "2.10.0-beta.3",
-  "notes": "### Changed\n\n- All file related to publish task (raw bundle, compressed bundle, etc) are storage in\u0060%LOCALAPPDATA%\\vrchat-content-manager-81b7bca3\\rpc-files\u0060. [\u0060#365\u0060](https://github.com/project-vrcz/content-publisher/pull/365)\n- Extend period of background update check to a hour. [\u0060#371\u0060](https://github.com/project-vrcz/content-publisher/pull/371)\n- Replace the Windows installer from NSIS with Inno Setup. [\u0060#377\u0060](https://github.com/project-vrcz/content-publisher/pull/377)\n  - If you want to downgrade to any version older than \u0060v2.10.0-beta.3\u0060, you **MUST** uninstall newer version first.\n  - No more PowerShell window during update.\n  - High DPI and Dark mode support.\n\n### Added\n\n- Tasks can be restore after crash or restarted. [\u0060#367\u0060](https://github.com/project-vrcz/content-publisher/pull/367)\n  - Progress of all restored tasks will end with \u0022Waiting for start\u0022.\n  - You need to manually start restored tasks.\n  - You can chose to retry or remove all restored (Pending) tasks.\n  - Options to remove task from database after it completed. [\u0060#373\u0060](https://github.com/project-vrcz/content-publisher/pull/373)\n\n### Fixed\n\n- Log spam when app crash. [\u0060#379\u0060](https://github.com/project-vrcz/content-publisher/pull/379)\n- In some case app may partial start. [\u0060#379\u0060](https://github.com/project-vrcz/content-publisher/pull/379)\n  - It can result in malfunctional or crash.\n\n### Changes from [2.10.0-beta.1]\n\n#### Fixed\n\n- App crash after click download update. [\u0060#375\u0060](https://github.com/project-vrcz/content-publisher/pull/375)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.0-beta.3",
-  "releaseDate": "2026-05-20T16:34:02+00:00",
+  "version": "2.10.0-beta.2",
+  "notes": "### Changed\n\n- All file related to publish task (raw bundle, compressed bundle, etc) are storage in\u0060%LOCALAPPDATA%\\vrchat-content-manager-81b7bca3\\rpc-files\u0060. [\u0060#365\u0060](https://github.com/project-vrcz/content-publisher/pull/365)\n- Extend period of background update check to a hour. [\u0060#371\u0060](https://github.com/project-vrcz/content-publisher/pull/371)\n\n### Added\n\n- Tasks can be restore after crash or restarted. [\u0060#367\u0060](https://github.com/project-vrcz/content-publisher/pull/367)\n  - Progress of all restored tasks will end with \u0022Waiting for start\u0022.\n  - You need to manually start restored tasks.\n  - You can chose to retry or remove all restored (Pending) tasks.\n  - Options to remove task from database after it completed. [\u0060#373\u0060](https://github.com/project-vrcz/content-publisher/pull/373)\n\n### Changes from [2.10.0-beta.1]\n\n#### Fixed\n\n- App crash after click download update. [\u0060#375\u0060](https://github.com/project-vrcz/content-publisher/pull/375)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.0-beta.2",
+  "releaseDate": "2026-05-18T18:44:10+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.0-beta.3/installer-win-x64.zip",
-      "sha256": "dd33d07ffed5ebf589fae110050ed47e3e727380925f4781f39d17a90b04b071"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.0-beta.2/installer-win-x64.zip",
+      "sha256": "3828d590181e67e7691b4d10e39b5efaf3ad41a45c1a45a90be39f6d0c1ba1c0"
     }
   }
 }
