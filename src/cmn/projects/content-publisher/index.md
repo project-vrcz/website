@@ -5,4 +5,4 @@
 从 [Github Releases](https://github.com/project-vrcz/content-publisher/releases) 下载。
 
 - Github 仓库：[https://github.com/project-vrcz/content-publisher](https://github.com/project-vrcz/content-publisher)
-- [隐私政策](terms/privacy)
+- [隐私政策](https://github.com/project-vrcz/content-publisher/blob/main/docs/privacy/PRIVACY.md)
