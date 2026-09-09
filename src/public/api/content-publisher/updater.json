@@ -1,12 +1,12 @@
 {
-  "version": "2.10.1",
-  "notes": "### Fixed\n\n- Unable to repair account using cookies. [\u0060#477\u0060](https://github.com/project-vrcz/content-publisher/pull/477)\n- Upgrade from version older than \u0060v2.10.0-beta.3\u0060 will create duplicated shortcut in start menu. [\u0060#476\u0060](https://github.com/project-vrcz/content-publisher/pull/476)\n- Download update failed won\u0027t show actual error message. [\u0060#478\u0060](https://github.com/project-vrcz/content-publisher/pull/478)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.10.1",
-  "releaseDate": "2026-06-26T13:00:21+00:00",
+  "version": "2.11.0",
+  "notes": "### Changed\n\n- Change max retry attempts of \u0060ConcurrentMultipartUploader\u0060 from 3 to 5. [\u0060#497\u0060](https://github.com/project-vrcz/content-publisher/pull/497)\n- Use Avalonia API instead of Win32 API workaround to detect working area (or taskbar position and size) changed.\n  - It should make no different.\n  - Just to satisfy the maintainer\u0027s vanity: Maintainer fix the Avalonia API by submit patch to Avalonia: [AvaloniaUI/Avalonia/pull/21707](https://github.com/AvaloniaUI/Avalonia/pull/21707)\n\n### Added\n\n- Include exception details in logging. [\u0060#495\u0060](https://github.com/project-vrcz/content-publisher/pull/495)\n- Include installation id in OpenTelemetry tracing. [\u0060#495\u0060](https://github.com/project-vrcz/content-publisher/pull/495)\n- Save failed to send open telemetry trace data to disk for retry later. [\u0060#498\u0060](https://github.com/project-vrcz/content-publisher/pull/498)\n- Async SQLite database operation. [\u0060#510\u0060](https://github.com/project-vrcz/content-publisher/pull/510)\n  - It should improve the performance for batch operation. (like Remove all completed tasks)\n\n## Fixed\n\n- Click \u0022Add to the package manager\u0022 button with \u0060vcc://\u0060 protocol registered but protocol handler file not exist will crash the app. [\u0060#499\u0060](https://github.com/project-vrcz/content-publisher/pull/499)\n  - Another line just to satisfy the maintainer\u0027s vanity: Maintainer fix this issue by submit patch to Avalonia: [AvaloniaUI/Avalonia/pull/21704](https://github.com/AvaloniaUI/Avalonia/pull/21704)\n- In rare case, crash during save telemetry settings will result it be reset. [\u0060#496\u0060](https://github.com/project-vrcz/content-publisher/pull/496)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.11.0",
+  "releaseDate": "2026-09-09T18:12:11+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.10.1/installer-win-x64.zip",
-      "sha256": "58247a02ad96f93048dc2d87461b9ee62a340dad6e9d8fc12cbe1a717cac62a5"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.11.0/installer-win-x64.zip",
+      "sha256": "11772a2165d0beff3908627598d28ed529fcea2ea7eca2967ea54574c6747049"
     }
   }
 }
