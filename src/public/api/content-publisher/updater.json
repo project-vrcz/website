@@ -1,12 +1,12 @@
 {
-  "version": "2.12.0",
-  "notes": "### Changed\n\n- Show detail error information returned by AWS S3 when file upload failed. [\u0060#518\u0060](https://github.com/project-vrcz/content-publisher/pull/518)\n\n### Added\n\n- Bring the main window of the running instance to the foreground when a desktop notification is clicked. [\u0060#520\u0060](https://github.com/project-vrcz/content-publisher/pull/520)\n- Add a option to allow send task completed successfully notification. [\u0060#517\u0060](https://github.com/project-vrcz/content-publisher/pull/517)\n- Allow manually refresh session state from accounts settings page and home page account tab. [\u0060#521\u0060](https://github.com/project-vrcz/content-publisher/issues/521) [\u0060#522\u0060](https://github.com/project-vrcz/content-publisher/pull/522)\n- Add a Client Pairing Guide button in RPC server settings to open the client pairing onboarding, with back navigation to return to the settings page. [\u0060#523\u0060](https://github.com/project-vrcz/content-publisher/pull/523)\n- Allow copying the RPC server port from the tray menu and from RPC server settings. [\u0060#523\u0060](https://github.com/project-vrcz/content-publisher/pull/523)\n- Add a status bar at the bottom of the home page showing the aggregated task counts of all accounts and the RPC server port with a copy button. [\u0060#523\u0060](https://github.com/project-vrcz/content-publisher/pull/523)\n- Show a reminder dialog when onboarding cannot launch the package manager with \u0060vcc://\u0060 protocol. [\u0060#526\u0060](https://github.com/project-vrcz/content-publisher/pull/526)\n- Add a final onboarding page telling users to publish from the VRChat SDK Build and Upload button. [\u0060#528\u0060](https://github.com/project-vrcz/content-publisher/pull/528)\n- Show the proxy the app detected in the network diagnostics window. [\u0060#530\u0060](https://github.com/project-vrcz/content-publisher/pull/530)\n  - Whether a proxy is used.\n  - The app proxy mode.\n  - The system proxy source.\n  - The effective proxy for each destination.\n- Add \u0060GET /v1/user-sessions/validity\u0060 RPC API for clients to check whether a VRChat account session is still valid. [\u0060#533\u0060](https://github.com/project-vrcz/content-publisher/pull/533)\n\n### Fixed\n\n- App freezes for a moment when opening the settings page. [\u0060#532\u0060](https://github.com/project-vrcz/content-publisher/pull/532)\n- Multipart upload won\u0027t abort when a single chunk upload failed. [\u0060#518\u0060](https://github.com/project-vrcz/content-publisher/pull/518)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.12.0",
-  "releaseDate": "2026-09-29T14:46:04+00:00",
+  "version": "2.12.1",
+  "notes": "### Fixed\n\n- Exit a page won\u0027t execute it\u0027s unload logic, which result in: [\u0060#536\u0060](https://github.com/project-vrcz/content-publisher/pull/536)\n  - As long as you\u0027ve opened the paring page in onboarding, paring new client will also navigate to last page of onboarding page, until the app is restarted.\n  - Increased memory usage.\n  - Random hang up or low fps.\n  - Random crash.",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.12.1",
+  "releaseDate": "2026-09-29T15:48:50+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.12.0/installer-win-x64.zip",
-      "sha256": "f14ec7c8acbdf6c37e452ebcd57390ae4d982771726446c34c236d3b2e283d1d"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.12.1/installer-win-x64.zip",
+      "sha256": "48a0e30e1003bec69bb90ab286d4e974b0a03d64f70bd839331fe4d4434c3731"
     }
   }
 }
