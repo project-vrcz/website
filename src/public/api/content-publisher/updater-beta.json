@@ -1,12 +1,12 @@
 {
-  "version": "2.12.1",
-  "notes": "### Fixed\n\n- Exit a page won\u0027t execute it\u0027s unload logic, which result in: [\u0060#536\u0060](https://github.com/project-vrcz/content-publisher/pull/536)\n  - As long as you\u0027ve opened the paring page in onboarding, paring new client will also navigate to last page of onboarding page, until the app is restarted.\n  - Increased memory usage.\n  - Random hang up or low fps.\n  - Random crash.",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.12.1",
-  "releaseDate": "2026-09-29T15:48:50+00:00",
+  "version": "2.12.2",
+  "notes": "### Changed\n\n- Cancel update no longer require confirm. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n\n### Fixed\n\n- Cancel update and retry download update will crash the app. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n- Cancel update downloading will show as update download error. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n- Unable to show any dialogs. [\u0060#538\u0060](https://github.com/project-vrcz/content-publisher/pull/538)",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.12.2",
+  "releaseDate": "2026-10-01T13:08:48+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.12.1/installer-win-x64.zip",
-      "sha256": "48a0e30e1003bec69bb90ab286d4e974b0a03d64f70bd839331fe4d4434c3731"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.12.2/installer-win-x64.zip",
+      "sha256": "3c10e10fb6f0b0d5090c74e08b9f00544254c8026b24d07cf0f22dd03f8119ba"
     }
   }
 }
