@@ -1,12 +1,12 @@
 {
-  "version": "2.12.2",
-  "notes": "### Changed\n\n- Cancel update no longer require confirm. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n\n### Fixed\n\n- Cancel update and retry download update will crash the app. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n- Cancel update downloading will show as update download error. [\u0060#539\u0060](https://github.com/project-vrcz/content-publisher/pull/539)\n- Unable to show any dialogs. [\u0060#538\u0060](https://github.com/project-vrcz/content-publisher/pull/538)",
-  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.12.2",
-  "releaseDate": "2026-10-01T13:08:48+00:00",
+  "version": "2.13.0-beta.1",
+  "notes": "### Changed\n\n- Upgrade to .NET 11. [\u0060#553\u0060](https://github.com/project-vrcz/content-publisher/pull/553)\n  - Minor performance improvement.\n  - Cleaner async stacktrace.",
+  "browserUrl": "https://github.com/project-vrcz/content-publisher/releases/tag/v2.13.0-beta.1",
+  "releaseDate": "2026-11-11T18:22:04+00:00",
   "platforms": {
     "win-x64": {
-      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.12.2/installer-win-x64.zip",
-      "sha256": "3c10e10fb6f0b0d5090c74e08b9f00544254c8026b24d07cf0f22dd03f8119ba"
+      "url": "https://github.com/project-vrcz/content-publisher/releases/download/v2.13.0-beta.1/installer-win-x64.zip",
+      "sha256": "e4669463a66b59a9de2cd20fead5cc857df0bbccf50089a264a32345067f8a3e"
     }
   }
 }
